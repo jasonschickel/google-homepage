@@ -4,41 +4,45 @@
         <meta charset="utf-8">
         <title>Google</title>
         <link href="/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     </head>
     <body>
         <header>
-            <nav class="top-left">
-                <a href=#>About</a>
-                <a href=#>Store</a>
-            </nav>
-            <nav class="top-right">
-                <a href="#">Gmail</a>
-                <a href=#>Images</a>
-                <img src="images/google_apps_icon.png" alt="Apps Menu">
-                <input type="button" name="sign in" value="Sign In">
+            <nav>
+                <ul class="top-left">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Store">Store</a></li>
+                </ul>
+                <ul class="top-right">
+                    <li><input type="button" name="sign in" value="Sign In"></li>
+                    <li><img id="app-menu" src="images/apps.svg" alt="Apps Menu"></li>
+                    <li><a href=#>Images</a></li>
+                    <li><a href="#">Gmail</a></li>   
+                </ul>  
             </nav> 
         </header>
         <div id="search">
             <div class="logo">
                 <img src="https://www.google.com./images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
             </div>
-            <div class="search">
-                <input type="text">
+            <div>
+                <input class="search" type="text">
                 <br>
-                <input type="button" name="submit" value="Google Search">
-                <input type="button" name="submit" value="I'm Feeling Lucky">
+                <input class="search" type="button" name="submit" value="Google Search">
+                <input class="search" type="button" name="submit" value="I'm Feeling Lucky">
             </div>
         </div>
         <footer>
-            <div class="left-footer">
-                <a href=#>Adveritsing</a>
-                <a href=#>Business</a>
-            </div>
-            <div class="right-footer">  
-                <a href=#>Privacy</a>
-                <a href=#>Terms</a>
-                <a href=#>Settings</a>
-            </div>
+            <ul class="left-footer">
+                <li><a href=#>Adveritsing</a></li>
+                <li><a href=#>Business</a></li>
+            </ul>
+            <ul class="right-footer">
+                <li><a href=#>Settings</a></li>
+                <li><a href=#>Terms</a></li>
+                <li><a href=#>Privacy</a></li>
+            </ul>
         </footer>
     </body>
 </html>

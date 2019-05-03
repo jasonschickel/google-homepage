@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: auto;
+}
+
+.top-left li {
+    display: inline;
+    float: left;
+}
+
+.top-right li {
+    display: inline;
+    float: right;
+}
+
+#search {
+    margin-top: 200px;
+}
+
+#search img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: #F1F1F1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.left-footer li {
+    display: inline;
+    float: left;
+}
+
+.right-footer li {
+    display: inline;
+    float: right;
+}
