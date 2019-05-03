@@ -97,6 +97,10 @@ nav li .sign-in {
     line-height: 28px;
 }
 
+.logo {
+    margin-bottom: 10px;
+}
+
 .textbox {
     border-radius: 30px;
     padding: 5px 150px;
