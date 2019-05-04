@@ -103,10 +103,11 @@ nav li .sign-in {
 
 .textbox {
     border-radius: 30px;
-    padding: 5px 150px;
     border-style: solid;
     border-width: .5px;
     border-color: #808080;
+    width: 500px;
+    padding: 5px 10px;
 }
 
 .textbox:hover {
