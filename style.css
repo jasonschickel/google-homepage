@@ -123,3 +123,7 @@ nav li .sign-in {
     font-size:13px;
     line-height: 28px;
 }
+
+.textbox:focus {
+    outline: 0;
+}
